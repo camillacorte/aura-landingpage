@@ -1,0 +1,178 @@
+body {
+    background-color: #FFFAF0;
+    display: block;
+    flex-direction:column;
+    justify-content: center;
+    width: 950px;
+    margin-left: 200px;
+
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 110px;
+    color: #291B11;
+    text-align: right;
+
+}
+
+/*containner 1*/
+
+.container1{
+    width: 100%;
+    min-height: 600px;
+    background-image: url(banner1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.p1{
+    color: #291B11;
+    margin-top: 60px;
+    margin-left: 5px;
+    text-align:  justify;
+    font-size: 25px;
+
+}
+
+/*coleção*/
+
+h2{
+    font-size: 65px;
+    color: #291B11;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container2{
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+video{
+    width: 40%;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.p2{
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #291B11;
+    width: 40%;
+}
+
+/*formulario*/
+
+.secao-formulario{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3{
+    text-align: center;
+    font-size: 20px;
+    color:#291B11;
+    margin-bottom: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-formulario input{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: #291B11;
+    box-shadow: none;
+    width: 450px;
+    height: 25px;
+}
+
+.secao-formulario button {
+    background-color: antiquewhite;
+    border-radius: 30px;
+    width: 90px;
+    color: #291B11;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.secao-formulario button :hover {
+    background-color: #291B11;
+    border-radius: 30px;
+    width: 90px;
+    color:antiquewhite;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*container 3*/
+.container3{
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fotos insta*/
+.containerimagens{
+    display:flexbox;
+    flex-direction: column;
+    width: 70%;
+}
+
+.secao-imagens{
+    display: inline;
+    flex-flow: row wrap;
+}
+
+.imagem1 {
+    width: 250px;
+    height: 150px;
+}
+
+footer{
+    text-align: center;
+    color: antiquewhite;
+    background-color: #291B11;
+    width: 100%;
+    margin-top: 50px;
+    height: 30px;
+    padding-top: 3px;
+}
+
+/*instagram*/
+
+.titulos-insta{
+    width: 30%;
+    display: block;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 45px;
+    color: #291B11;
+    margin-bottom: 2px;
+}
+
+h4{
+    font-size: 25px;
+    color: #291B11;
+
+}
+
+
+
